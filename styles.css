@@ -1,0 +1,93 @@
+#description,
+legend {
+  color: #468189;
+  font-size: 25px;
+  margin: -10px auto auto auto;
+  text-align: center;
+  font-weight: bold;
+}
+
+#title {
+  text-align: center;
+  color: #031926;
+  font-size: 35px;
+  text-shadow: 1px 1px 2px rgba(3, 25, 0.1);
+}
+body {
+  font-size: 20px;
+  background: linear-gradient(to top, #468189, #9dbebb);
+  font-family: Helvetica;
+}
+div {
+  width: 70%;
+  background-color: #f4e9cd;
+  margin: 5% auto 5% auto;
+
+  padding: 20px 20px 40px 20px;
+  max-width: 800px;
+  border-radius: 20px;
+  box-shadow: 4px 4px 8px #383838aa;
+}
+.user-data,
+#name-label,
+#email-label,
+#number-label,
+#field-study {
+  display: block;
+  color: #468189;
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: bold;
+}
+#name,
+#email,
+#number,
+#field,
+#dropdown {
+  width: 60%;
+  display: inline;
+  height: 3.5%;
+}
+p {
+  font-size: 18px;
+  margin-top: 5px;
+  color: #031926;
+}
+
+.suggestions {
+  color: #468189;
+  font-size: 30px;
+  font-weight: bold;
+}
+#suggestions {
+  display: block;
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 7em;
+}
+#method,
+#challenge {
+  font-size: 18px;
+  display: block;
+}
+#radio,
+#checkbox {
+  display: block;
+  line-height: 30px;
+  color: #031926;
+}
+#submit {
+  height: 2em;
+  width: 10em;
+  float: right;
+  margin-right: 15px;
+  margin-top: -5px;
+  margin-bottom: auto;
+}
+fieldset {
+  border: none;
+  margin: 1em auto 1em auto;
+}
+.footer {
+  margin: -20px auto auto auto;
+}

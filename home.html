@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Study Habits Survey Form</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <div>
+  <h1 id="title">Study Habits Survey Form</h1>
+  <p id="description">Help other students to have a better experience at learning!</p>
+  <form id="survey-form" method="post" action="https://register-demo.freecodecamp.org">
+    <fieldset class="user-data">
+      <label for="name" id="name-label">Name: <input required type="text"  id="name" placeholder="Enter your name"></input></label>
+      <label for="email" id="email-label">Email: <input required type="email"  id="email" placeholder="Enter your email"></input></label>
+      <label for="number" id="number-label">Age: <input required type="number" min="13" max="100" id="number"  placeholder="Enter your age""></input></label>
+      <label for="field" id="field-study">Field of Study: <input required type="text" id="field" placeholder="Enter your field of study"></input></label>
+    </fieldset>
+    <fieldset>
+    <p>Every student chooses a technique to remember information more effectively while studying. Some take notes, others create diagrams, and some prefer listening to lectures. </p>
+      <legend>What would you say is your study style?</legend>
+      <select id="dropdown" name="study-style">
+        <option value="">Select your study style:</option>
+        <option value="visual">Visual</option>
+        <option value="auditory">Auditory</option>
+        <option value="kinesthetic">Kinesthetic</option>
+        <option value="reading">Reading/Writing</option>
+      </select>
+    </fieldset>
+    <fieldset name="challenge" id="challenge">
+      <legend>What is the biggest challenge you face while studying?</legend>
+      <label for="procastination" id="radio"><input name="challenge" type="radio" value="procastination" id="procastination" checked></input> Procrastination</label>
+      <label for="concentrate" id="radio"><input name="challenge" type="radio" value="concentrate" id="concentrate"></input> Difficulty Concentrating</label>
+      <label for="lack-of-time" id="radio"><input name="challenge" type="radio" value="lack-of-time" id="lack-of-time"></input> Lack of Time</label>
+      <label for="understand" id="radio"><input name="challenge" type="radio" value="understand" id="understand"></input> Understanding the Material</label>
+    </fieldset>
+    <fieldset id="method">
+      <legend>Which study methods do you use? (Select all that apply)</legend>
+      <label for="summaries" id="checkbox"><input id="summaries" type="checkbox" value="summaries"></input> Summaries</label>
+      <label for="flashcards" id="checkbox"><input id="flashcards" type="checkbox" value="flashcards"></input> Flashcards</label>
+      <label for="study-groups" id="checkbox"><input id="study-groups" type="checkbox" value="study-groups"></input> Study Groups</label>
+      <label for="videos" id="checkbox"><input id="videos" type="checkbox" value="videos"></input> Educational Videos</label>
+      <label for="mind-maps" id="checkbox"><input id="mind-maps" type="checkbox" value="mind-maps"></input> Mind Maps</label>
+    </fieldset>
+    <fieldset class="footer">
+      <label for="suggestions" class="suggestions">Feedback/Suggestions<textarea id="suggestions"></textarea></label>
+    </fieldset>
+    <button id="submit" type="submit">Submit</button>
+  </form>
+  </div>  
+</body>
+</html>
